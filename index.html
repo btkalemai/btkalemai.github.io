@@ -36,6 +36,9 @@ nav a:hover{color:var(--teal)}
 .av{animation:pulse 3.2s ease-in-out infinite}
 @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
 @media (prefers-reduced-motion:reduce){.btn,.av,.cta .btn{animation:none;transition:none}}
+.pubs{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:14px}.pubs small{width:100%;text-align:center;color:#555;font-size:13px}
+.pb{display:inline-flex;align-items:center;gap:6px;padding:7px 12px;border:2px solid var(--ink);border-radius:999px;background:var(--paper);color:var(--ink);text-decoration:none;font-weight:700;font-size:13px;transition:transform .18s ease,box-shadow .18s ease;box-shadow:2px 2px 0 var(--ink)}
+.pb svg{width:18px;height:18px}.pb:hover{transform:translateY(-2px)}.pb:active{transform:translate(2px,2px);box-shadow:0 0 0 var(--ink)}
 .btn.alt{background:var(--paper);color:var(--ink)}
 .cta .btn{flex:1;min-width:130px}.cta .btn.main{flex-basis:100%}
 section{padding:34px 0}
@@ -91,7 +94,7 @@ footer{padding:30px 0 50px;text-align:center;color:var(--muted);font-size:14px}
 <section id="episodes">
   <h2>الحلقات</h2>
   <div class="grid">
-    <div class="ep real"><small>الحلقة 1</small><img src="5-ep1cover.jpg" width="1080" height="1920" loading="lazy" alt="غلاف الحلقة 1: هو ChatGPT ممكن يقول لك معلومة غلط ويشرحها بثقة؟"><h3>هو ChatGPT ممكن يقول لك معلومة غلط ويشرحها بثقة؟</h3><a class="btn" href="https://www.instagram.com/btkalem.ai/reel/DgKPDUPpUrU/">شاهد الحلقة على انستجرام</a></div>
+    <div class="ep real"><small>الحلقة 1</small><img src="5-ep1cover.jpg" width="1080" height="1920" loading="lazy" alt="غلاف الحلقة 1: هو ChatGPT ممكن يقول لك معلومة غلط ويشرحها بثقة؟"><h3>هو ChatGPT ممكن يقول لك معلومة غلط ويشرحها بثقة؟</h3><a class="btn" href="https://www.instagram.com/btkalem.ai/reel/DgKPDUPpUrU/">شاهد الحلقة على انستجرام</a><div class="pubs"><small>نُشرت على</small><a class="pb" href="https://www.instagram.com/btkalem.ai/reel/DgKPDUPpUrU/" aria-label="انستجرام" title="انستجرام"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.3" cy="6.7" r="1.3" fill="currentColor"/></svg><span>انستجرام</span></a><a class="pb" href="https://www.tiktok.com/@btkalem.ai/video/7712055348085001473" aria-label="تيك توك" title="تيك توك"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-1.9-2.5V9.7a5.7 5.7 0 1 0 5 5.7V9a7.3 7.3 0 0 0 4.3 1.4V7.3a4.3 4.3 0 0 1-3.2-1.5z"/></svg><span>تيك توك</span></a><a class="pb" href="https://www.youtube.com/@btkalemai" aria-label="يوتيوب" title="يوتيوب"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M22 8.2a2.8 2.8 0 0 0-2-2C18.3 5.7 12 5.7 12 5.7s-6.3 0-8 .5a2.8 2.8 0 0 0-2 2C1.5 9.9 1.5 12 1.5 12s0 2.1.5 3.8a2.8 2.8 0 0 0 2 2c1.7.5 8 .5 8 .5s6.3 0 8-.5a2.8 2.8 0 0 0 2-2c.5-1.7.5-3.8.5-3.8s0-2.1-.5-3.8zM10 15V9l5.2 3z"/></svg><span>يوتيوب</span></a></div></div>
     <div class="ep"><small>الحلقة 2</small><h3>قريباً</h3><p>العنوان والتفاصيل هتتضاف عند النشر.</p><span class="soon">قريباً</span></div>
   </div>
 </section>
