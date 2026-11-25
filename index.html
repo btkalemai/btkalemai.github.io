@@ -39,6 +39,12 @@ nav a:hover{color:var(--teal)}
 .pubs{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:14px}.pubs small{width:100%;text-align:center;color:#555;font-size:13px}
 .pb{display:inline-flex;align-items:center;gap:6px;padding:7px 12px;border:2px solid var(--ink);border-radius:999px;background:var(--paper);color:var(--ink);text-decoration:none;font-weight:700;font-size:13px;transition:transform .18s ease,box-shadow .18s ease;box-shadow:2px 2px 0 var(--ink)}
 .pb svg{width:18px;height:18px}.pb:hover{transform:translateY(-2px)}.pb:active{transform:translate(2px,2px);box-shadow:0 0 0 var(--ink)}
+.hero{background:#fff;border:2px solid var(--ink);border-radius:18px;box-shadow:6px 6px 0 rgba(31,42,51,.18);padding:34px 24px 28px;margin:10px 0 8px}
+.hero h1 img{width:min(420px,84%)}
+.hero p.tag{margin:18px 0 22px;font-size:clamp(22px,4vw,30px);color:var(--ink)}
+.cta{gap:12px;max-width:440px}.cta .btn:last-child{flex-basis:100%}
+section{padding:30px 0}
+@media(max-width:600px){.hero{padding:22px 14px 20px;margin:6px 0 4px;border-radius:16px}.hero h1 img{width:86%}.hero p.tag{margin:12px 0 18px}}
 .btn.alt{background:var(--paper);color:var(--ink)}
 .cta .btn{flex:1;min-width:130px}.cta .btn.main{flex-basis:100%}
 section{padding:34px 0}
@@ -60,7 +66,7 @@ h2{font-size:30px;margin:0 0 14px;display:inline-block;border-bottom:4px solid v
 .follow{text-align:center}
 .follow .btn{margin:6px}
 footer{padding:30px 0 50px;text-align:center;color:var(--muted);font-size:14px}
-@media(max-width:600px){.wrap{padding:0 40px 0 14px}body::after{right:16px}.brand{display:none}header.nav{flex-direction:column;gap:4px;padding:14px 0 6px}nav{display:flex;gap:18px;justify-content:center;flex-wrap:wrap}nav a{margin:0;font-size:14px}.hero{padding:22px 0 8px}h2{font-size:26px}section{padding:24px 0}.box{padding:18px 14px}}
+@media(max-width:600px){.wrap{padding:0 40px 0 14px}body::after{right:16px}.brand{display:none}header.nav{flex-direction:column;gap:4px;padding:14px 0 6px}nav{display:flex;gap:18px;justify-content:center;flex-wrap:wrap}nav a{margin:0;font-size:14px}h2{font-size:26px}section{padding:24px 0}.box{padding:18px 14px}}
 </style>
 </head>
 <body>
