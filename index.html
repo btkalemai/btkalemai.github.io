@@ -17,7 +17,7 @@ header.nav{display:flex;justify-content:space-between;align-items:center;padding
 .brand{font-weight:800;font-size:22px}.brand b{color:var(--teal)}
 nav a{margin-inline-start:20px;color:var(--ink);text-decoration:none;font-weight:600;font-size:15px}
 nav a:hover{color:var(--teal)}
-.hero{padding:72px 0 56px;text-align:center}
+.hero{padding:56px 0 24px;text-align:center}
 .hero h1{font-size:clamp(44px,9vw,88px);margin:0;line-height:1.2;font-weight:900}
 .hero h1 b{color:var(--teal)}
 .hero h1 span{background:linear-gradient(transparent 62%,rgba(214,58,58,.28) 62%)}
@@ -26,7 +26,7 @@ nav a:hover{color:var(--teal)}
 .btn{display:inline-block;background:var(--teal);color:#fff;text-decoration:none;padding:12px 30px;border-radius:10px;font-weight:700;border:2px solid var(--ink);box-shadow:4px 4px 0 var(--ink)}
 .btn.alt{background:var(--paper);color:var(--ink)}
 .cta{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:8px}.cta .btn{margin:0;min-width:140px;text-align:center}.mapimg{display:block;width:100%;max-width:640px;margin:16px auto 6px;border-radius:12px;border:2px solid var(--ink)}.cap{display:block;text-align:center;color:var(--muted)}.arrow{display:block;margin:8px auto 0;width:60px;height:80px}
-section{padding:48px 0}
+section{padding:36px 0}
 h2{font-size:32px;margin:0 0 16px;display:inline-block;border-bottom:4px solid var(--teal)}
 .box{background:#fff;border:2px solid var(--ink);border-radius:12px;padding:24px 28px;box-shadow:5px 5px 0 rgba(31,42,51,.15)}
 .check{list-style:none;padding:0;margin:14px 0 0}
@@ -42,7 +42,7 @@ mark{background:rgba(255,214,64,.55);padding:0 4px;border-radius:3px}
 .next{color:var(--purple);font-weight:800}
 .follow{text-align:center}.follow .btn{margin:6px}
 footer{padding:36px 0 60px;text-align:center;color:var(--muted);font-size:14px}
-@media(max-width:600px){.mapbox{padding:16px 8px}.mapbox p{padding:0 10px}.wrap{padding:0 40px 0 14px}body::after{right:16px}nav a{margin-inline-start:12px;font-size:13px}.cta .btn.main{flex-basis:100%}.cta .btn.alt{flex:1}.cta{max-width:340px;margin-inline:auto}.hero{padding:44px 0 36px}}
+@media(max-width:600px){header.nav{flex-direction:column;gap:2px;padding:14px 0 6px}nav{display:flex;gap:18px;justify-content:center;flex-wrap:wrap}nav a{margin:0;font-size:14px}.hero{padding:28px 0 8px}.hero p.sub{margin-bottom:22px}section{padding:26px 0}h2{font-size:28px}.ep.real img{max-width:260px}.mapbox{padding:16px 8px}.mapbox p{padding:0 10px}.wrap{padding:0 40px 0 14px}body::after{right:16px}nav a{margin-inline-start:12px;font-size:13px}.cta .btn.main{flex-basis:100%}.cta .btn.alt{flex:1}.cta{max-width:340px;margin-inline:auto}.hero{padding:44px 0 36px}}
 </style>
 </head>
 <body>
@@ -57,7 +57,6 @@ footer{padding:36px 0 60px;text-align:center;color:var(--muted);font-size:14px}
   <p class="tag"><span>الذكاء الاصطناعي ببساطة</span></p>
   <p class="sub">تطبيقات عملية من الفكرة للتنفيذ.</p>
   <div class="cta"><a class="btn main" href="#episodes">شوف الحلقات</a><a class="btn alt" href="https://www.instagram.com/btkalem.ai/">انستجرام</a><a class="btn alt" href="https://www.tiktok.com/@btkalem.ai">تيك توك</a></div>
-  <svg class="arrow" viewBox="0 0 60 80" fill="none" stroke="#1f9d96" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M30 6 V70"/><path d="M12 54 L30 72 L48 54"/></svg>
 </div>
 
 <section id="about">
